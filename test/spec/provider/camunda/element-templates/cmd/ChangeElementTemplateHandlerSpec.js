@@ -65,6 +65,9 @@ describe('element-templates - cmd', function() {
         expect(conditionExpression).to.exist;
         expect(conditionExpression.$type).to.eql('bpmn:FormalExpression');
         expect(conditionExpression.body).to.eql('${ customer.vip }');
+        console.log('==============');
+        console.log(elementTemplate);
+        console.log('==============');
         expect(elementTemplate).to.exist;
         expect(elementTemplate).to.equal('e.com.merce.FastPath');
       }));

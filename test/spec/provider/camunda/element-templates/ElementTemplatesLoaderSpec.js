@@ -12,7 +12,7 @@ var coreModule = require('bpmn-js/lib/core'),
     elementTemplatesModule = require('../../../../../lib/provider/camunda/element-templates'),
     camundaModdlePackage = require('camunda-bpmn-moddle/resources/camunda');
 
-var indexBy = require('lodash/collection/indexBy');
+var indexBy = require('lodash/keyBy');
 
 
 describe('element-templates - ElementTemplatesLoader', function() {

@@ -2,7 +2,7 @@
 
 var ElementTemplates = require('../../../../../lib/provider/camunda/element-templates/ElementTemplates');
 
-var indexBy = require('lodash/collection/indexBy');
+var indexBy = require('lodash/keyBy');
 
 
 describe('element-templates - ElementTemplates', function() {

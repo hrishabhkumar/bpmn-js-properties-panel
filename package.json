@@ -22,8 +22,8 @@
   },
   "license": "MIT",
   "devDependencies": {
-    "bpmn-js": "^0.20.3",
-    "bpmn-moddle": "^0.12.3",
+    "bpmn-js": "https://github.com/hrishabhkumar/bpmn-js.git",
+    "bpmn-moddle": "file:../bpmn-moddle",
     "browserify": "^13.0.0",
     "camunda-bpmn-moddle": "^0.9.1",
     "chai": "~2.2.0",
@@ -59,12 +59,12 @@
   "dependencies": {
     "ids": "^0.2.0",
     "inherits": "^2.0.1",
-    "lodash": "^3.0.1",
+    "lodash": "^4.17.4",
     "min-dom": "^0.2.0",
-    "scroll-tabs": "^0.2.1",
+    "scroll-tabs": "https://github.com/hrishabhkumar/scroll-tabs.git",
     "selection-update": "^0.1.2"
   },
   "peerDependencies": {
-    "bpmn-js": ">=0.12 <0.21"
+    "bpmn-js": "https://github.com/hrishabhkumar/bpmn-js.git"
   }
 }
